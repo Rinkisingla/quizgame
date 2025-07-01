@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  border: 2px solid white;
+  border-radius: 20%; /* change to 20px if you want less oval */
+  text-align: center;
+  margin: 50px auto;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#question {
+  font-size: 33px;
+}
+
+#options {
+  font-size: 25px;
+}
+#options label {
+  display: block;        /* stack options vertically */
+  margin-bottom: 7px;   /* space between options */
+  cursor: pointer;       /* shows pointer when hovering */
+}
+
+
+#nextbtn {
+  color: black;
+  background-color: white;
+  padding: 20px 50px;
+  margin: 20px;
+  font-size: x-large;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#nextbtn:hover {
+  background-color: #ddd;
+}
